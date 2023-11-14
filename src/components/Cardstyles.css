@@ -1,0 +1,130 @@
+body {
+    font-family: 'Big Shoulders Display', sans-serif;
+    /*font-family: 'Lexend Deca', sans-serif;*/
+    margin: 0;
+    font-size: 15px;
+    color: hsl(0, 0%, 95%);
+    text-align: center;
+  }
+  
+  .app {
+    text-align: center;
+  }
+  
+  .preview-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 370px; 
+    margin: 20px auto; 
+    padding: 20px;
+  }
+  
+  .card-section {
+    text-align: left;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    border-radius: 0.1rem;
+  }
+  
+  .card-section h1 {
+    margin: 10px 0;
+    font-size: 24px;
+    color: #F2F2F2;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+  
+img {
+    width: 4rem;
+    height: 2.5rem;
+}
+
+  .card-section p {
+    margin: 5px 0;
+    color: #808080;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    line-height: 1.6rem;
+    opacity: 0.75;
+    
+  }
+
+  #sedan-preview{
+    background-color: hsl(31, 77%, 52%);
+  }
+
+  #suvs-preview {
+    background-color: hsl(184, 100%, 22%);
+  }
+
+  #luxury-preview {
+    background-color: hsl(179, 100%, 13%);
+  }
+
+  .learn-more-button {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    padding: 10px 5px;
+    border: none;
+    border-radius: 1.6rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    font-family: 'Lexend Deca', sans-serif;
+    width: 9.125rem;
+    height: 3rem;
+    transition: background-color 0.3s;
+  }
+ 
+ #sedan-preview .learn-more-button{
+    color: hsl(31, 77%, 52%);
+  }
+
+  #suvs-preview .learn-more-button {
+    color: hsl(184, 100%, 22%);
+  }
+
+  #luxury-preview .learn-more-button {
+    color: hsl(179, 100%, 13%);
+  }
+
+  #sedan-preview .learn-more-button:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border: solid 2px hsl(0, 0%, 95%);
+  }
+
+  #suvs-preview .learn-more-button:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border: solid 2px hsl(0, 0%, 95%);
+  }
+
+  #luxury-preview .learn-more-button:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border: solid 2px hsl(0, 0%, 95%);
+  }
+
+  @media (min-width: 500px) {
+    /* Desktop and Tablet styles */
+    .preview-card {
+      display: flex;
+      max-width: 100%; 
+      margin: 0; 
+      padding: 50px; 
+      justify-content: space-around;
+    }
+  
+    .card-section {
+      margin-bottom: 0; 
+  }
+
+}
+    
